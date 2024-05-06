@@ -11,8 +11,7 @@
 .checkdiv { 
   justify-content: space-between;
 display: flex;
-align-items: center; 
-
+align-items: center;
 }
 .form-group {
   margin-bottom: 20px;
