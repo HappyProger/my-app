@@ -29,7 +29,7 @@ function App() { // отображение
     }
   }
 
-  function toggleNoteCompletion(id) {
+  function toggleNote(id) {
     setNotes(
       notes.map(
         function (note) {
@@ -88,7 +88,7 @@ function App() { // отображение
                         <div className="checkbox-container">
                           <input
                             type="checkbox"
-                            onChange={function () { toggleNoteCompletion(note.id); }}
+                            onChange={function () { toggleNote(note.id); }}
                           />
                           <span>{note.text}</span>
                         </div>
